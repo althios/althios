@@ -1,0 +1,19 @@
+x1=12323
+y1=12343
+f=function(x){
+  return(sin(pi*x)^2+sin(pi*x1*y1/x)^2)  
+}
+g=function(x){
+return(2*cos(pi*x)*sin(pi*x)+2*sin(pi*x1*y1/x)*cos(pi*x1*y1/x))  
+}
+upper=12323
+z=rep(0,100)
+for(i in 1:1000){
+z[i]=f(upper+0.00005*i)  
+}
+w=rep(0,100)
+for(i in 1:1000){
+w[i]=g(upper+0.00005*i)  
+}
+plot(z,w)
+lines(z,w)

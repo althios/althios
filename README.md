@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @althios
+- 👋 Hi, I’m @althios @daroneb @dxAhyoryaxb
 - 👀 I’m interested in P=NP
 - 🌱 I’m currently learning analityc continuity
 - 💞️ I’m looking to collaborate on Big Data problems
